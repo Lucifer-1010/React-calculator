@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@500&display=swap');
+body{
+  background-color: white;
+  font-family: 'Baloo Bhaijaan 2', cursive;
+}
+.result {
+  height: 70px;
+  background-color: #202124;
+  width: 400px;
+  border: 1px solid black;
+  cursor:crosshair;
+  border-radius: 54px;
+  border-bottom: none;
+  border: 1px solid white;
+  font-family: 'Baloo Bhaijaan 2', cursive;
+
+
+}
+
+.result p {
+  font-size: 40px;
+  margin: 5px;
+  color: white;
+
+}
+
+.calculator-body {
+  max-width: 400px;
+  margin: auto;
+  color: black;
+  text-decoration: underline;
+  border-radius: 14px;
+
+  
+  
+}
+
+.button {
+  display: block;
+  cursor: grab;
+  /* border: 1px solid rgb(88, 77, 77); */
+  border-radius: 4px;
+  margin: 15px;
+
+  
+  /* background-color: #767b81; */
+}
+
+button {
+  width: 25%;
+  height: 60px;
+  font-size: 30px;
+  color: #e8eaed;
+  background-color: #3c4043;
+  border: 1px solid white;
+  cursor: grab;
+  font-family: 'Baloo Bhaijaan 2', cursive;
+  border-radius: 54px;
+
+
+}
+
+.result:hover{
+  background-color: #2f3235;
+  border-color: rgb(55, 91, 102);
+
+}
+button:hover{
+  background-color:#52565a;
+  ;
+}
+
+#equalto{
+  background-color: #8ab4f8;
+  color: #202124;
+}
